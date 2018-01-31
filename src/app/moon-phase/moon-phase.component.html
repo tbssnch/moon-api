@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="results">
+    <div *ngIf="moon">
+      <app-moon-results [childMoon]="moon"></app-moon-results>
+    </div>
+    <button (click)="getMoonData()">Click</button>
+  </div>
+</div>
